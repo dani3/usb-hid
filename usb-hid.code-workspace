@@ -1,0 +1,62 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.formatting": "clangFormat",
+		"C_Cpp.default.defines": [
+			"STM32F030x8"
+		],
+		"C_Cpp.clang_format_style": "file",
+		"C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
+		"C_Cpp.default.compilerPath": "clang.exe",
+		"C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+		"C_Cpp.errorSquiggles": "Enabled",
+		"C_Cpp.default.includePath": [
+			"./src/",
+			"./Inc/cmsis/Device/ST/STM32F0xx/Include",
+			"./Inc/cmsis/Include",
+		],
+		"files.associations": {
+			"*.h": "c",
+			"*.c": "c",
+		},
+		// Editor configuration
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.trimAutoWhitespace": true,
+		"editor.formatOnSave": true,
+		// Doxygen configuration
+		"doxdocgen.c.commentPrefix": " * ",
+		"doxdocgen.file.fileTemplate": "\\file {name}",
+		"doxdocgen.generic.briefTemplate": "\\brief {text}",
+		"doxdocgen.generic.returnTemplate": "\\return {type} ",
+		"doxdocgen.generic.paramTemplate": "\\param {param} ",
+		"doxdocgen.generic.dateTemplate": "",
+		"doxdocgen.generic.authorTag": "",
+		"doxdocgen.generic.dateFormat": "",
+		"doxdocgen.file.versionTag": "",
+		"doxdocgen.file.copyrightTag": [
+			"\\copyright Copyright 2021 Valid. All rights reserved."
+		],
+		"doxdocgen.file.fileOrder": [
+			"file",
+			"empty",
+			"brief",
+			"custom",
+			"empty",
+			"copyright"
+		],
+		"doxdocgen.generic.order": [
+			"brief",
+			"empty",
+			"tparam",
+			"param",
+			"empty",
+			"return",
+			"custom"
+		]
+	}
+}
