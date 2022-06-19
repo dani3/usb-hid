@@ -7,7 +7,7 @@
 	"settings": {
 		"C_Cpp.formatting": "clangFormat",
 		"C_Cpp.default.defines": [
-			"STM32F030x8"
+			"STM32F103xB"
 		],
 		"C_Cpp.clang_format_style": "file",
 		"C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
@@ -16,7 +16,7 @@
 		"C_Cpp.errorSquiggles": "Enabled",
 		"C_Cpp.default.includePath": [
 			"./src/",
-			"./Inc/cmsis/Device/ST/STM32F0xx/Include",
+			"./Inc/cmsis/Device/ST/STM32F1xx/Include",
 			"./Inc/cmsis/Include",
 		],
 		"files.associations": {

@@ -1,7 +1,7 @@
-#include "stm32f0xx.h"
+#include <stdint.h>
 
 int main(void) {
-  /* Loop forever */
-  for (;;)
-    ;
+    /* Loop forever */
+    for (;;)
+        ;
 }
