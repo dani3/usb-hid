@@ -16,8 +16,8 @@
 		"C_Cpp.errorSquiggles": "Enabled",
 		"C_Cpp.default.includePath": [
 			"./src/",
-			"./Inc/cmsis/Device/ST/STM32F1xx/Include",
-			"./Inc/cmsis/Include",
+			"./Inc/Device/ST/STM32F1xx/Include",
+			"./Inc/Include",
 		],
 		"files.associations": {
 			"*.h": "c",
